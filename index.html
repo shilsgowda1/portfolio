@@ -1,90 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shilpa H | Senior .NET Developer & Tech Lead</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shilpa H - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Shilpa H</h1>
+      <p>Bengaluru 560040, Karnataka | 9916088542 | <a href="mailto:shilpah.gowda@outlook.com">shilpah.gowda@outlook.com</a></p>
+      <a href="https://www.linkedin.com/in/shilpa-h-gowda/" target="_blank">LinkedIn</a>
+    </div>
+  </header>
 
-    <section id="about">
-        <div class="container">
-            <h1>Shilpa H</h1>
-            <p>Tech Lead | Senior .NET Developer</p>
-            <p>Location: Bengaluru, Karnataka</p>
-            <p>Email: <a href="mailto:shilpah.gowda@outlook.com">shilpah.gowda@outlook.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/shilpa-h-gowda/" target="_blank">linkedin.com/in/shilpa-h-gowda</a></p>
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Experienced .NET Developer and Tech Lead with 6.6+ years of expertise in backend development and team leadership. Successfully led global projects, including supporting clinical trial studies in the US and Japan, reducing delivery time by 30%. Resolved critical production issues with 99.9% uptime and improved system performance by 25%.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i class="fab fa-cuttlefish"></i>
+          <p>C#</p>
         </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Backend Development: C#, .NET Core, ASP.NET MVC, LINQ</li>
-                <li>Frontend Development: HTML, JavaScript, jQuery, AngularJS</li>
-                <li>Database: MSSQL, SQL Server, Entity Framework</li>
-                <li>Web Services: RESTful APIs, Microservices</li>
-                <li>Security: OAuth, JWT Authentication</li>
-                <li>Version Control: Git, TFS</li>
-                <li>CI/CD: Azure DevOps</li>
-                <li>Agile Methodologies: Scrum, Jira</li>
-                <li>Tools: Visual Studio, SSMS, Postman</li>
-            </ul>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <p>SQL Server</p>
         </div>
-    </section>
-
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <h3>Tech Lead and Assistant Manager - Full Stack (SyMetric Systems)</h3>
-            <p>Jan 2023 – Present</p>
-            <ul>
-                <li>Developed microservices for Sample Management System using C#, ASP.NET MVC, and Entity Framework.</li>
-                <li>Deployed applications via Azure DevOps pipelines for CI/CD automation.</li>
-                <li>Enhanced performance by integrating secure authentication and role-based access with JWT.</li>
-            </ul>
-
-            <h3>Software Engineer (SyMetric Systems)</h3>
-            <p>Apr 2021 – Dec 2022</p>
-            <ul>
-                <li>Optimized PDF/Excel export times using ITextSharp, reducing export time from 29 hours to 90 minutes.</li>
-                <li>Improved global latency from 200ms to 20ms.</li>
-                <li>Designed and executed over 7,300 test cases for operational and performance qualifications.</li>
-            </ul>
-
-            <h3>Software Developer (SHLR Techno Soft PVT LTD)</h3>
-            <p>Jan 2018 – Apr 2019</p>
-            <ul>
-                <li>Built various web platforms, including LMS, news sites, and eCommerce platforms.</li>
-                <li>Enhanced school management systems with full-stack capabilities.</li>
-            </ul>
+        <div class="skill">
+          <img src="img/icons/dotnet.png" alt=".NET">
+          <p>.NET Framework & Core</p>
         </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:shilpah.gowda@outlook.com">shilpah.gowda@outlook.com</a></p>
-            <p>Phone: 9916088542</p>
+        <div class="skill">
+          <i class="fab fa-js-square"></i>
+          <p>JavaScript</p>
         </div>
-    </section>
+        <div class="skill">
+          <i class="fas fa-lock"></i>
+          <p>OAuth & JWT</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Shilpa H | Senior .NET Developer & Tech Lead</p>
-    </footer>
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h3>Tech Lead and Assistant Manager, SyMetric Systems</h3>
+          <p>Jan 2023 – Present</p>
+          <ul>
+            <li>Designed microservices for the Sample Management System using .NET 8, reducing server load and improving scalability.</li>
+            <li>Deployed apps using Azure DevOps pipelines and integrated secure authentication with JWT.</li>
+            <li>Collaborated with stakeholders to deliver study-specific customizations.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Software Engineer, SyMetric Systems</h3>
+          <p>Apr 2021 – Dec 2022</p>
+          <ul>
+            <li>Optimized PDF/Excel export time from 29 hours to 90 minutes using ITextSharp and data tables.</li>
+            <li>Implemented Azure Function Queue for mail notifications and Azure Blobs for storing subject CRF PDFs.</li>
+            <li>Resolved real-time production issues, ensuring 99.9% uptime.</li>
+          </ul>
+        </li>
+        <li>
+          <h3>Software Developer, SHLR Techno Soft Pvt. Ltd.</h3>
+          <p>Jan 2018 – Apr 2019</p>
+          <ul>
+            <li>Developed LMS, news, and eCommerce platforms including Bd1 News and Art Cafe.</li>
+            <li>Launched a cab booking website with interactive features.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-    <script src="js/scripts.js"></script>
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Key Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <h3>Sample Management System</h3>
+          <p>A comprehensive solution for tracking sample lifecycles, implemented with .NET 8 and Azure SQL.</p>
+        </div>
+        <div class="project">
+          <h3>SyMetric C6</h3>
+          <p>EDC and IWRS platform with optimized data handling, reducing PDF generation time from 29 hours to 90 minutes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Cert Prep: Scrum Master by Kelly O’Connell</li>
+        <li>SQL Server Performance for Developers by Joey D'Antoni</li>
+        <li>ASP.NET Core: Health Checks and Logging by Christian Wenz</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li>MCA, R. V. College of Engineering, Bengaluru (2016 – 2018) | 8 GPA</li>
+        <li>BCA, The National College, Bengaluru (2013 – 2016) | 8.4 GPA</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Shilpa H. All Rights Reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
